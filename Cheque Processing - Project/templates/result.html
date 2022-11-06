@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+	<title>Drag and Drop File Upload</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet"  href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <section  id="header-logos">
+        <div class="container-fluid">
+    
+          <div class="row">
+            <div class="feature-box col-lg-4 col-sm-4">
+           <!-- <img class=" logo bob-world" src="images/BOBworld_logo.png" alt=""> -->
+           <img  class=" logo bob-world" src="{{url_for('static', filename='BOBworld_logo.png')}}">
+            </div>
+            <div class=" feature-box col-lg-4 col-sm-4">
+            <!-- <img class=" logo bob-main" src="images/BOB.png" alt=""> -->
+            <img  class=" logo bob-main" src="{{url_for('static', filename='BOB.png')}}">
+             
+            </div>
+            <div class="feature-box col-lg-4 col-sm-4">
+                <!-- <img class=" logo azaadi" src="images/Azaadi.png" alt=""> -->
+            <img  class=" logo azaadi" src="{{url_for('static', filename='Azaadi.png')}}">
+
+            </div>
+            
+          </div>
+        </div>
+        </section>
+    <hr>
+
+    <img src="" alt="">
+
+   <div class="parameters" >
+
+    <table class="cheque-parameters" >
+            
+                <!-- <tr >
+                    <th>Parameters</th>
+                    <th>Status</th>
+                    <th>Parameters</th>
+                    <th>Status</th>
+                </tr> -->
+                
+            
+            
+                <tr>
+                    <td>Account Number</td>
+                    <td></td>
+                    <td>Signature Verification</td> 
+                    <td></td>                    
+                </tr>
+                <tr>
+                   <td>Cheque Number</td> 
+                   <td></td>
+                   <td>Ink Verification</td> 
+                   <td></td>
+                    
+                </tr>
+                    
+                <tr>
+                    <td>Account Balance</td> 
+                    <td></td>
+                    <td>Ammount Match</td> 
+
+                    <td></td>
+                     
+                 </tr>
+                 <tr>
+                    <td>Date Validity</td> 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                     
+                 </tr>
+                 
+            
+        </table>
+   </div>
+
+</body>

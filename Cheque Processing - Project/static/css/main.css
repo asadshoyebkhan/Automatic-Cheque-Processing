@@ -1,0 +1,127 @@
+body{
+	background-color: #ffb347;
+	
+}
+#header-logos{
+	text-align: center;
+	display: flex;
+	background-color: #fff;
+	border: 5px solid #ffb347 ;
+	
+	
+    
+}
+.logo{
+	width: 15rem;
+	margin: 3rem;
+	padding: 0;
+}
+.bob-main{
+	height: 10rem;
+	width: 20rem;
+}
+
+.drop-zone {
+	margin: auto;
+	max-width: 600px;
+	height: 300px;
+	padding: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	cursor: pointer;
+	color: #000;
+	border: 4px dashed #cc5500;
+	border-radius: 10px;
+}
+
+.drop-zone--over {
+	border-style: solid;
+}
+
+.drop-zone__input {
+	display: none;
+}
+
+.drop-zone__thumb {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #cccccc;
+	background-size: cover;
+	position: relative;
+}
+
+.drop-zone__thumb::after {
+	content: attr(data-label);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 5px 0;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.75);
+	font-size: 14px;
+	text-align: center;
+}
+#submit{
+	text-align: center;
+}
+.btn {
+	background: #fc6900;
+	background-image: -webkit-linear-gradient(top, #fc6900, #f7a359);
+	background-image: -moz-linear-gradient(top, #fc6900, #f7a359);
+	background-image: -ms-linear-gradient(top, #fc6900, #f7a359);
+	background-image: -o-linear-gradient(top, #fc6900, #f7a359);
+	background-image: linear-gradient(to bottom, #fc6900, #f7a359);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	margin: 2rem 45rem;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+  .btn:hover {
+	background: #faa719;
+	background-image: -webkit-linear-gradient(top, #faa719, #f2880e);
+	background-image: -moz-linear-gradient(top, #faa719, #f2880e);
+	background-image: -ms-linear-gradient(top, #faa719, #f2880e);
+	background-image: -o-linear-gradient(top, #faa719, #f2880e);
+	background-image: linear-gradient(to bottom, #faa719, #f2880e);
+	text-decoration: none;
+  }
+  .cheque-parameters{
+    width: 80%;
+    align-self: center;
+	text-align: center;
+    margin: 5% 10%;
+	
+	/* border: 1px solid #f2880e; */
+  }
+  .cheque-parameters thead,
+  tfoot {
+      background-color: #333;
+      color: #fff;
+  }
+ 
+th{
+	/* background-color: black; */
+	color: #fff;
+	padding-inline-start: 10px;
+}
+td{
+	/* background-color: #FF6700; */
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+}
+ 

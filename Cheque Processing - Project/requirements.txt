@@ -1,0 +1,6 @@
+pip install handwritten-signature-verification
+pip install opencv-python
+pip install tensorflow
+pip install waitress
+pip install pyodbc
+pip install azure-storage-blob
